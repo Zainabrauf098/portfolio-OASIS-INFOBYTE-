@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/dc599b3f53.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header"><img src="images/zainablogo.jpeg" class="logo"></a>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Student</p>
+                <h1>Hi, I'm <span>Zainab Rauf</span><br> from Karachi, Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/pic10.jpg.jpeg"> 
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="text-about">Passionate and responsible student with excellent time management skills ready to take all tasks. 
+                        I demonstrate strong work ethic and creative ability. I am a hardworking and dedicated 
+                        individual willing to gain more knowledge. An excellent speaker with the best 
+                        conversation skills. I am committed to my life goals and am dedicated to achieving them through hard work.
+                        I am a strong and self-motivated person who strives to excel in every task assigned to me.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML CSS</span><br>Intermediate level</li>
+                            <li><span>C++</span><br>Intermediate level</li>
+                            <li><span>Database Management (SQL)</span><br>Intermediate level</li>
+                            <li><span>JAVA</span><br>Intermediate level</li>
+                            <li><span>Data Structures</span><br>Intermediate level</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - Current</span><br>Web Development Internship</li>
+                            <li><span>2019</span><br>WWF - Pakistan</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Bahria University, Karachi Campus</span><br>Current GPA: 3.8</li>
+                            <li><span>Tabanis College - PECHS</span><br>Intermediate</li>
+                            <li><span>Army Public School - Faisal</span><br>Matriculation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Currently doing an internship in web development.<br>Studied in 4th semester of my university degree.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>HTML CSS</h2>
+                    <p>Intermediate level.<br>Studied in 4th semester of my university degree.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management (SQL)</h2>
+                    <p>Intermediate level.<br>Studied in 4th semester of my university degree.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/re1.jpg.jpeg">
+                    <div class="layer">
+                        <h3>Website Designing, Portfolio Designing.</h3> 
+                        <p>Landing page using JavaScript, HTML, and CSS.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/re2.jpg.jpeg">
+                    <div class="layer">
+                        <h3>Pharmacy Management System (SQL).</h3> 
+                        <p>Developed pharmacy management system with various features.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/re3.jpg.jpeg">
+                    <div class="layer">
+                        <h3>Online Restaurant Reservation System.</h3> 
+                        <p>Created online restaurant system with diverse functionalities.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-l">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-paper-plane"></i> zainabrauf098@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 03327923489</p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Resume cv.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        for (var i = 0; i < tablinks.length; i++) {
+            tablinks[i].addEventListener("click", function(event) {
+                for (var j = 0; j < tablinks.length; j++) {
+                    tablinks[j].classList.remove("active-link");
+                }
+                for (var j = 0; j < tabcontents.length; j++) {
+                    tabcontents[j].classList.remove("active-tab");
+                }
+    
+                event.currentTarget.classList.add("active-link");
+                var tabname = this.getAttribute('onclick').replace("opentab('", "").replace("')", "");
+                document.getElementById(tabname).classList.add("active-tab");
+            });
+        }
+    </script>
+</body>
+</html>
